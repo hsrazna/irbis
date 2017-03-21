@@ -4,14 +4,14 @@
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="az-table">
-							<li><a href="#">Каталог</a></li>
-							<li><a href="#">Доставка и оплата</a></li>
-							<li><a href="#">Скидки и акции</a></li>
-							<li><a href="#">Магазины</a></li>
-							<li><a href="#">Пункты выдачи заказов</a></li>
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Оптовикам</a></li>
-							<li><a href="#">Контакты</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Скидки и акции</a></li>
+						<li><a href="#">Магазины</a></li>
+						<li><a href="#">Пункты выдачи заказов</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Оптовикам</a></li>
+						<li><a href="#">Контакты</a></li>
 					</ul>
 				</div>
 			</div>
@@ -131,11 +131,43 @@
 							</form>
 						</div>
 						<div class="az-hb-left">
-							<span>Интернет-магазин<br>снаряжения и экипировки</span>
+							<span>Интернет-магазин снаряжения и экипировки</span>
 						</div>
 					</div>
 					<div class="az-hm2-right">
-						
+						<a href="#" class="az-menu-icon"></a>
+						<ul class="az-dropdawn-menu">
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Скидки и акции</a></li>
+							<li><a href="#">Магазины</a></li>
+							<li><a href="#">Пункты выдачи заказов</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Оптовикам</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="az-header-bottom2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="az-icons clearfix">
+						<div class="az-header-icon">
+							<span class="az-icon-header">Выгодно</span>
+							<span class="az-icon-cont">Бесплатная доставка по РФ от 10000 р.</span>
+						</div>
+						<div class="az-header-icon style2">
+							<span class="az-icon-header">Удобно</span>
+							<span class="az-icon-cont">620 пунктов выдачи заказов</span>
+						</div>
+						<div class="az-header-icon style3">
+							<span class="az-icon-header">Безопасно</span>
+							<span class="az-icon-cont">Оплата Наличными при получении</span>
+						</div>
 					</div>
 				</div>
 			</div>

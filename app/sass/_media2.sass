@@ -39,6 +39,7 @@
 	.az-header-icon
 		padding-left: 56px
 		background-size: 50px
+		min-height: 50px
 		font-size: 0
 		&.style2, &.style3
 			background-size: 50px
@@ -191,9 +192,104 @@
 	/*header-mobile-middle*/
 	.az-header-middle2
 		background: #f2f2f2
+
+	.az-hm2-left
+		width: calc(100% - 34px)
+		float: left
+		text-align: left
+		padding-left: 25px
+
+	.az-hm2-right
+		float: right
+		width: 34px
+		padding: 11px 5px
+		font-size: 0
+		position: relative
+
 	.az-hb-middle
-		
+		width: 100%
+		float: none
+		padding: 5px 0 2px
+		form
+			width: 230px
+		input[type="text"]
+			height: 17px
+			line-height: 17px
+			font-size: 8px
+			padding: 0 4px
+			border-color: #fafafa
+		input[type="submit"]
+			height: 17px
+			line-height: 15px
+			border-top-right-radius: 2px
+			border-bottom-right-radius: 2px
+			font-size: 8px
+
+	.az-hb-left
+		margin: 0
+		padding: 0
+		font-size: 0
+		width: 230px
+		text-align: center
+
+	.az-menu-icon
+		display: inline-block
+		width: 24px
+		height: 17px
+		background: url(../img/az-menu-icon.png) no-repeat center
+
+	.az-dropdawn-menu
+		display: none
+		&.open
+			display: block
+			top: 100%
+			right: 0
+			position: absolute
+			width: 155px
+			z-index: 9
+			li
+				width: 155px
+				// height: 25px
+				// line-height: 25px
+				font-size: 0
+				display: block
+				background: rgba(242, 242, 242, 0.9);
+				padding: 6px 10px
+				a
+					font-size: 13px
+					line-height: 16px
+					display: inline-block
+					width: 100%
+
+
 	/*header-mobile-middle*/
+
+	/*header-mobile-bottom*/
+	.az-icons
+		width: 100%
+		padding: 5px 0
+		max-width: 360px
+		margin: 0 auto
+
+	.az-header-icon
+		padding-left: 38px
+		min-height: 34px
+		background: url(../img/az-icon1-mobile.png) no-repeat top left
+		&.style2
+			background: url(../img/az-icon2-mobile.png) no-repeat top left
+		&.style3
+			background: url(../img/az-icon3-mobile.png) no-repeat top left
+
+	.az-icon-header
+		font-size: 9px
+		line-height: 10px
+
+	.az-icon-cont
+		line-height: 10px
+		font-size: 8px
+	/*header-mobile-bottom*/
+
+	
 
 	/**/
 
