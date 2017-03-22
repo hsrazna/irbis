@@ -30,7 +30,6 @@ h2
 			background: #be272e
 			border-radius: 3px
 			border: 1px solid #e9b7b9
-			// border-bottom: 1px solid #e9b7b9
 
 /*header-top*/
 .az-header
@@ -314,3 +313,44 @@ h2
 		&:hover, &:active
 			text-decoration: underline
 /*main-news*/
+
+/*main-testimonials*/
+.az-testimonials
+	padding-top: 6px
+
+.az-overhidden
+	height: 114px
+	max-width: 200px
+	margin: 0 auto
+	overflow: hidden
+
+.az-test-item
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+	padding: 6px 6px 10px
+	font-size: 0
+	div
+		text-align: center
+	.az-test-header
+		font-size: 10px
+		margin-bottom: 10px
+		color: #000
+		position: relative
+		display: inline-block
+		line-height: 15px;
+		min-height: 19px;
+		&::before
+			content: ''
+			position: absolute
+			display: inline-block
+			top: 13px
+			left: 0
+			width: 100%
+			height: 3px
+			background: #80bd18
+			border-radius: 3px
+			border: 1px solid #aed370
+	p
+		font-size: 7.5px
+		color: #000
+		text-align: left
+/*main-testimonials*/
