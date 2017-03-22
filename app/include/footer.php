@@ -7,7 +7,7 @@
 					<ul class="ah-footer-list">
 						<li><a href="#">Весь каталог</a></li>
 						<li><a href="#">Альпинизм</a></li>
-						<li><a href="#">Промышленный альпинизм</a></li>
+						<li><a href="#">Промышленный <br class="hidden-lg hidden-md">альпинизм</a></li>
 						<li><a href="#">Веревки, шнуры</a></li>
 						<li><a href="#">Одежда</a></li>
 						<li><a href="#">Обувь</a></li>
@@ -18,7 +18,7 @@
 						<li><a href="#">Лодки и моторы</a></li>
 						<li><a href="#">Водный туризм</a></li>
 						<li><a href="#">Спальные мешки</a></li>
-						<li><a href="#">Горелки туристические</a></li>
+						<li><a href="#">Горелки <br class="hidden-lg hidden-md">туристические</a></li>
 					</ul>
 				</div>
 				<div class="ah-footer-wrappright">
@@ -31,16 +31,16 @@
 						<li><a href="#">Фонари</a></li>
 						<li><a href="#">Кухня</a></li>
 						<li><a href="#">Кемпинговая мебель</a></li>
-						<li><a href="#">Холодильники и термосумки</a></li>
+						<li><a href="#">Холодильники и <br class="hidden-lg hidden-md">термосумки</a></li>
 						<li><a href="#">Спорт и фитнес</a></li>
-						<li><a href="#">Связь, навигация, электроника</a></li>
+						<li><a href="#">Связь, навигация, <br class="hidden-lg hidden-md">электроника</a></li>
 						<li><a href="#">Химия и репелленты</a></li>
 						<li><a href="#">Разное</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 no-padd">
-				<div class="row">
+				<div class="row no-marg">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padd">
 						<div class="ah-footer-wrapp1">
 							<span class="ah-footer-title">Покупателям:</span>
@@ -74,7 +74,7 @@
 									<li><span>ОГРН 311028009800128</span></li>
 								</ul>
 								<div class="ah-footimgbox">
-									<a href="#"><img src="img/footer1.jpg" alt="yandex market"></a>
+									<a href="#"><img src="img/footer1.jpg" class="img-responsive" alt="yandex market"></a>
 								</div>
 							</div>
 						</div>
