@@ -12,4 +12,23 @@ $(function() {
 		}
 		return false;
 	});
+
+	jQuery("#az-slider").slider({
+	    min: parseInt($("input#minCost").val()),
+	    max: $("input#maxCost").val(),
+	    values: [$("input#minCost").val(),$("input#maxCost").val()],
+	    range: true,
+	    stop: function(event, ui) {
+	      // alert(1);
+			jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0)).width((jQuery("input#minCost").val().length+1)*8);
+			jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1)).width((jQuery("input#maxCost").val().length+1)*8);
+		},
+		slide: function(event, ui){
+			jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0)).width((jQuery("input#minCost").val().length+1)*8);
+			jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1)).width((jQuery("input#maxCost").val().length+1)*8);
+		}
+	});
+
+	// $('.selectpicker').selectpicker();
+
 });

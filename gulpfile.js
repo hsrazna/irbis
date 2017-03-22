@@ -19,8 +19,10 @@ gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
 		// 'app/libs/az-select/az-select.js',
-		// 'app/libs/bootstrap/bootstrap.min.js',
+		'app/libs/bootstrap/bootstrap.min.js',
+		// 'app/libs/bootstrap-select/bootstrap-select.js',
 		'app/libs/owl.carousel/owl.carousel.min.js',
+		'app/libs/jquery-ui/jquery-ui.js',
 		// 'app/libs/mmenu/jquery.mmenu.min.all.js',
 		// 'app/libs/superfish-master/dist/js/superfish.min.js',
 		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',

@@ -555,7 +555,31 @@
 				</div>
 			</div>
 			<div class="col-xs-12">
-				
+				<div class="az-banner">
+					<img src="img/obvyazki.jpg" alt="обвязка">
+				</div>
+				<div class="az-filter">
+					<div class="az-filter-top">
+						<div class="az-filter-col">
+							<label for="az-slider">Цена</label>
+							<div id="az-slider"></div>
+							<input type="text" id="minCost" value="1000"/>
+							<input type="text" id="maxCost" value="3000"/>
+						</div>
+						<div class="az-filter-col">
+							<label for="az-select">Выпадшка:</label>
+							<div class="az-select">
+								<select class="selectpicker" data-style="az-btn" data-width="100%" name="select" id="az-select">
+									<option>Распродажа</option>
+									<option>Мягкие игрушки</option>
+									<option>Оружие</option>
+								</select>
+							</div>
+						</div>
+						<div class="az-filter-col"></div>
+					</div>
+					<div class="az-filter-bottom"></div>
+				</div>
 			</div>
 			<div class="col-xs-12">
 			
