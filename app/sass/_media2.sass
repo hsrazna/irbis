@@ -311,6 +311,24 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)
+	h2
+		font-size: 16px
+
+	/*main-news*/
+	.az-news-item
+		.az-cat
+			span
+				width: 76px
+				font-size: 10px
+				height: 23px
+				line-height: 23px
+		a, a:focus
+			font-size: 13px
+			line-height: 17px
+
+	.az-news
+		padding-top: 5px
+	/*main-news*/
 	/**/
 
 /* Small Devices, Tablets */
@@ -353,10 +371,45 @@
 			font-size: 16px
 			line-height: 20px
 	/*main-catalog*/
+
+	/*main-testimonials*/
+	.az-testimonials
+		padding-top: 15px
+
+	.az-overhidden
+		height: 186px
+		max-width: 250px
+		margin: 0 auto
+		overflow: hidden
+
+	.az-test-item
+		padding: 12px 10px 15px
+		.az-test-header
+			font-size: 16px
+			line-height: 24px;
+			min-height: 32px;
+			&::before
+				top: 22px
+		p
+			font-size: 12px
+			line-height: 16px
+	/*main-testimonials*/
 	/**/
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
+	h2
+		font-size: 25px
+		line-height: 30px
+		margin-bottom: 15px
+		span
+			&::before
+				height: 4px
+
+	/*main-news*/
+	.az-news
+		padding-top: 20px
+	/*main-news*/
 	/**/
 
 
@@ -390,6 +443,43 @@
 			font-size: 22px
 			line-height: 26px
 	/*main-catalog*/
+
+	/*main-news*/
+	.az-news-item
+		.az-cat
+			span
+				width: 112px
+				font-size: 16px
+				height: 36px
+				line-height: 36px
+		a, a:focus
+			margin-top: 15px;
+			font-size: 20px
+			line-height: 25px
+	/*main-news*/
+
+	/*main-testimonials*/
+	.az-testimonials
+		padding-top: 30px
+
+	.az-overhidden
+		height: 290px
+		max-width: none
+
+	.az-test-item
+		padding: 20px 18px 30px
+		.az-test-header
+			font-size: 25px
+			line-height: 34px;
+			margin-bottom: 20px
+			min-height: 44px;
+			&::before
+				top: 33px
+				height: 4px
+		p
+			font-size: 19px
+			line-height: 24px
+	/*main-testimonials*/
 	/**/
 
 /* Large Devices, Wide Screens */
