@@ -11,6 +11,27 @@
 body
 	font-family: Arial
 
+h2
+	font-size: 15px
+	text-align: center
+	text-transform: uppercase
+	margin-bottom: 10px
+	span
+		position: relative
+		display: inline-block
+		&::before
+			content: ''
+			position: absolute
+			display: inline-block
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 3px
+			background: #be272e
+			border-radius: 3px
+			border: 1px solid #e9b7b9
+			// border-bottom: 1px solid #e9b7b9
+
 /*header-top*/
 .az-header
 	padding-top: 13px
@@ -276,3 +297,20 @@ body
 		&:last-child
 			margin-bottom: 0
 /*main-catalog*/
+
+/*main-news*/
+.az-news-item
+	.az-cat
+		span
+			width: 46px
+			font-size: 6px
+	a, a:focus
+		margin-top: 5px;
+		font-size: 10px
+		color: #000
+		text-decoration: none
+		line-height: 12px
+		display: inline-block
+		&:hover, &:active
+			text-decoration: underline
+/*main-news*/
