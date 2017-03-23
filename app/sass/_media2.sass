@@ -137,16 +137,6 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px)
-	.container
-		padding-left: 5px
-		padding-right: 5px
-		>.row
-			margin-left: -5px
-			margin-right: -5px
-			div[class^="col"]
-				padding-left: 5px
-				padding-right: 5px
-	
 	/*header-mobile-top*/
 	.az-header2
 		padding-top: 7px
@@ -404,6 +394,18 @@
 	/*-accordion*/
 	.az-catalog-sidebar
 		margin-top: 0
+		margin-bottom: 7px
+		padding: 15px 7px 5px 8px//15px 8px 5px 18px
+
+	.az-accordion
+		>li
+			>ul
+				>li
+					padding-left: 7px
+					>a, a:focus
+						font-size: 12px
+						span
+							font-size: 11px
 	/*-accordion*/
 
 	/*-filter*/
@@ -444,7 +446,20 @@
 		line-height: 17px
 
 	.az-select-top
-		padding-top: 7px
+		padding-top: 9px
+
+	.az-submit
+		padding-right: 10px
+		input[type="submit"]
+			margin-right: 0
+			height: 20px
+			font-size: 15px
+			line-height: 20px
+			border-radius: 4px
+			width: 88px
+		input[type="reset"]
+			font-size: 10px
+			line-height: 12px
 	/*-filter*/
 	/**/
 
@@ -531,6 +546,59 @@
 			font-size: 19px
 			line-height: 24px
 	/*main-testimonials*/
+
+	/*-filter*/
+	.az-filter
+		margin-bottom: 10px
+		padding: 10px 0
+		label
+			line-height: 14px
+			font-size: 14px
+			margin-bottom: 4px
+		span
+			font-size: 12px
+
+	.az-range-slider
+		padding: 3px
+
+	.ui-slider .ui-slider-handle
+		width: 18px  /* Задаем нужную ширину */
+		height: 18px  /* и высоту */
+		border-radius: 3px
+
+	.ui-slider-horizontal .ui-slider-handle
+		margin-left: -9px
+
+	.ui-corner-all
+		height: 13px
+
+	.az-select
+		font-size: 14px
+		&::before
+			right: 5px
+			height: 24px
+			line-height: 24px
+			font-size: 14px
+		select
+			height: 24px
+			font-size: 14px
+
+	.az-select .az-options div[data-val]
+		line-height: 24px
+
+	.az-submit
+		padding-right: 3px
+		input[type="submit"]
+			height: 30px
+			font-size: 14px
+			line-height: 30px
+			border-radius: 5px
+			width: 160px
+			margin-bottom: 2px
+		input[type="reset"]
+			font-size: 14px
+			line-height: 16px
+			margin-right: 20px
 	/**/
 
 /* Large Devices, Wide Screens */

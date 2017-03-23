@@ -1,7 +1,7 @@
 <section class="catalog-tovar">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-4">
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
 				<div class="az-catalog-sidebar">
 					<div><span class="az-cs-title">Каталог</span></div>
 					<ul class="az-accordion">
@@ -552,9 +552,10 @@
 							</ul>
 						</li>
 					</ul>
+
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-8">
+			<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
 				<div class="az-banner">
 					<img src="img/obvyazki.jpg" alt="обвязка">
 				</div>
@@ -616,7 +617,7 @@
 							<div class="az-filter-col2">
 								<div class="az-submit">
 									<div><input type="submit" value="Найти"></div>
-									<div><input type="reset" value="Сбросить фильтр"></div>
+									<div><input type="reset" value="сбросить фильтр"></div>
 								</div>
 							</div>
 						</div>
