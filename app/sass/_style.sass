@@ -703,4 +703,90 @@ div[class^="col"]
 		color: #61c10d
 /*-sort*/
 
+/*-catalog items*/
+.az-cat-tov-item
+	width: 100%
+	min-height: 200px
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+	padding: 5px
+	position: relative
+
+.az-cat-tov-img
+	width: 100%
+	height: 130px
+	text-align: center
+	img
+		display: inline-block
+		max-width: 100%
+		width: auto
+		max-height: 100%
+		height: auto
+
+.az-cat-tov-title
+	padding-top: 15px
+	text-align: center
+	span
+		font-size: 11.5px
+		line-height: 14px
+		display: inline-block
+		color: #000
+
+.az-cat-tov-price
+	width: 67px
+	height: 19px
+	background: #59be00
+	position: absolute
+	top: 120px
+	left: -4px
+	text-align: center
+	font-size: 0
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		top: -4px
+		left: 0
+		width: 0
+		height: 0
+		border-top: 2px solid transparent
+		border-left: 2px solid transparent
+		border-right: 2px solid #59be00
+		border-bottom: 2px solid #59be00
+	span
+		display: inline-block
+		line-height: 19px
+		font-size: 13px
+		vertical-align: middle
+		color: #fff
+
+.az-cat-tov-add
+	width: 17px
+	height: 17px
+	background: #be272e
+	position: absolute
+	top: 121px
+	right: 6px
+	text-align: center
+	border-radius: 50%
+	font-size: 0
+	a
+		display: inline-block
+		line-height: 17px
+		color: #fff
+		font-size: 13px
+		text-decoration: none
+		&:hover, &:active, &:focus
+			text-decoration: none
+
+.az-row.style2
+	.az-col
+		width: 49%
+		margin-right: 2%
+		float: left
+		margin-bottom: 7px
+		&:nth-child(2n)
+			margin-right: 0
+/*-catalog items*/
+
 /*catalog-tovar*/

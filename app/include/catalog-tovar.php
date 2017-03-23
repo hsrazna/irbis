@@ -637,6 +637,200 @@
 						<a href="#" class="az-rows"><i class="fa fa-th-list" aria-hidden="true"></i></a>
 					</div>
 				</div>
+				<div class="az-row style2 clearfix">
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov1.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Снегоступы Снаряжение 76х23,5 (100-120 кг)</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov2.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Термобельё Baseg Stretch Low</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>2750 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov3.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Куртка RedFox Wind Loft муж.</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>18590 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov1.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Снегоступы Снаряжение 76х23,5 (100-120 кг)</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov2.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Термобельё Baseg Stretch Low</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>2750 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov3.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Куртка RedFox Wind Loft муж.</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>18590 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov1.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Снегоступы Снаряжение 76х23,5 (100-120 кг)</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov2.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Термобельё Baseg Stretch Low</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>2750 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov3.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Куртка RedFox Wind Loft муж.</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>18590 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov1.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Снегоступы Снаряжение 76х23,5 (100-120 кг)</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov2.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Термобельё Baseg Stretch Low</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>2750 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<img src="img/az-cat-tov3.jpg" alt="Снегоступы">
+							</div>
+							<div class="az-cat-tov-title">
+								<span>Куртка RedFox Wind Loft муж.</span>
+							</div>
+							<div class="az-cat-tov-price">
+								<span>18590 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#">+</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-xs-12">
 			
