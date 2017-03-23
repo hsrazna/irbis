@@ -1,7 +1,7 @@
 <section class="catalog-tovar">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-sm-4">
 				<div class="az-catalog-sidebar">
 					<div><span class="az-cs-title">Каталог</span></div>
 					<ul class="az-accordion">
@@ -554,32 +554,74 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-sm-8">
 				<div class="az-banner">
 					<img src="img/obvyazki.jpg" alt="обвязка">
 				</div>
-				<div class="az-filter">
-					<div class="az-filter-top">
-						<div class="az-filter-col">
-							<label for="az-slider">Цена</label>
-							<div id="az-slider"></div>
-							<input type="text" id="minCost" value="1000"/>
-							<input type="text" id="maxCost" value="3000"/>
-						</div>
-						<div class="az-filter-col">
-							<label for="az-select">Выпадшка:</label>
-							<div class="az-select">
-								<select class="selectpicker" data-style="az-btn" data-width="100%" name="select" id="az-select">
-									<option>Распродажа</option>
-									<option>Мягкие игрушки</option>
-									<option>Оружие</option>
-								</select>
+				<form action="/">
+					<div class="az-filter clearfix">
+						<div class="az-filter-top">
+							<div class="az-filter-col">
+								<label for="az-slider">Цена</label>
+								<div class=" clearfix">
+									<div class="pull-left az-col-2 az-left">
+										<span id="minCost2">0</span><span> р.</span>
+										<input type="text" id="minCost" value="0"/>
+									</div>
+									<div class="pull-right az-col-2 az-right">
+										<span id="maxCost2">33000</span><span> р.</span>
+										<input type="text" id="maxCost" value="33000"/>
+									</div>
+								</div>
+								<div class="az-range-slider">
+									<div id="az-slider"></div>
+								</div>
+							</div>
+							<div class="az-filter-col">
+								<div class="az-select-top">
+									<label>Производитель</label>
+									<div class="az-select">
+										<select>
+											<option>Все</option>
+											<option>Произв1</option>
+											<option>Произв2</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="az-filter-col">
+								<div class="az-select-top">
+									<label>Тип системы</label>
+									<div class="az-select">
+										<select>
+											<option class="az-option">Все</option>
+											<option class="az-option">Типтип1</option>
+											<option class="az-option">Типтип2</option>
+										</select>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="az-filter-col"></div>
+						<div class="az-filter-bottom">
+							<div class="az-filter-col2">
+								<label>Назначение</label>
+								<div class="az-select">
+									<select>
+										<option class="az-option">Все</option>
+										<option class="az-option">Назначение1</option>
+										<option class="az-option">Назначение2</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-filter-col2">
+								<div class="az-submit">
+									<div><input type="submit" value="Найти"></div>
+									<div><input type="reset" value="Сбросить фильтр"></div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="az-filter-bottom"></div>
-				</div>
+				</form>
 			</div>
 			<div class="col-xs-12">
 			
