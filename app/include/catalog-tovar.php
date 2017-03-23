@@ -623,6 +623,20 @@
 						</div>
 					</div>
 				</form>
+				<div class="az-sort clearfix">
+					<div class="az-sort-left">
+						<span class="az-tovar-num">Товаров : 110</span>
+					</div>
+					<div class="az-sort-middle">
+						<span class="az-sort-type">сортировать по:</span>
+						<a href="#" class="az-sort-price">цене</a>
+						<a href="#" class="az-sort-abc">названию</a>
+					</div>
+					<div class="az-sort-right">
+						<a href="#" class="az-grid active"><i class="fa fa-th" aria-hidden="true"></i></a>
+						<a href="#" class="az-rows"><i class="fa fa-th-list" aria-hidden="true"></i></a>
+					</div>
+				</div>
 			</div>
 			<div class="col-xs-12">
 			
