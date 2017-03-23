@@ -1,7 +1,7 @@
 <section class="ah-footer">
     <div class="container">
     	<div class="row no-marg">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 no-padd">
+				<div class="col-lg-5 col-md-5 col-sm-5 hidden-xs no-padd">
 					<div class="ah-footer-wrappleft">
 						<span class="ah-footer-title">Наши товары:</span>
 						<ul class="ah-footer-list">
@@ -39,10 +39,10 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 no-padd">
+				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 no-padd">
 					<div class="row no-marg">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padd">
-							<div class="ah-footer-wrapp1">
+							<div class="ah-footer-wrapp1 hidden-xs">
 								<span class="ah-footer-title">Покупателям:</span>
 								<ul class="ah-footer-list">
 									<li><a href="#">Скидки и акции</a></li>
