@@ -47,6 +47,9 @@ div[class^="col"]
 .az-right
 	text-align: right
 
+.az-center
+	text-align: center
+
 /*header-top*/
 .az-header
 	padding-top: 13px
@@ -729,11 +732,16 @@ div[class^="col"]
 .az-cat-tov-title
 	padding-top: 15px
 	text-align: center
-	span
+	a
 		font-size: 11.5px
 		line-height: 14px
 		display: inline-block
 		color: #000
+		text-decoration: none
+		&:focus, &:active
+			text-decoration: none
+		&:hover
+			text-decoration: underline
 
 .az-cat-tov-price
 	width: 67px
@@ -765,23 +773,24 @@ div[class^="col"]
 		color: #fff
 
 .az-cat-tov-add
-	width: 17px
-	height: 17px
-	background: #be272e
-	position: absolute
-	top: 121px
-	right: 6px
 	text-align: center
-	border-radius: 50%
 	font-size: 0
 	a
+		background: #be272e
+		position: absolute
+		top: 121px
+		right: 6px
+		border-radius: 50%
 		display: inline-block
 		line-height: 17px
 		color: #fff
+		width: 17px
 		font-size: 13px
 		text-decoration: none
 		&:hover, &:active, &:focus
 			text-decoration: none
+		span
+			font-size: 0
 
 .az-row.style2
 	.az-col
@@ -791,6 +800,70 @@ div[class^="col"]
 		margin-bottom: 7px
 		&:nth-child(2n)
 			margin-right: 0
+
+.az-row.style2.list
+	.az-col
+		width: 100%
+		margin-right: 0
+		float: none
+	.tooltip::after
+		display: none
+	.az-cat-tov-item
+		display: table
+		.az-cat-tov-img, .az-cat-tov-title, .az-cat-tov-price, .az-cat-tov-add
+			display: table-cell
+			width: 25%
+			vertical-align: middle
+			position: static
+			background: #fff
+			box-shadow: none
+			color: #000
+			padding: 0
+			a, span
+				color: #000
+			&::before
+				display: none
+		.az-cat-tov-add
+			a
+				font-size: 0
+				width: 100px
+				position: static
+				height: 30px
+				border-radius: 3px
+				border: 1px solid #be272e
+				&:hover
+					background: #fff
+					span
+						color: #be272e
+				span
+					font-size: 13px
+					display: inline-block
+					line-height: 30px
+					color: #fff
+
 /*-catalog items*/
 
 /*catalog-tovar*/
+
+/*tooltip*/
+.tooltip::after
+	background: #fff////rgba(255, 255, 255, 0.8)
+	border-radius: 8px 8px 8px 0px
+	border: 1px solid #989898
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5)
+	color: #000
+	font-size: 8px
+	white-space: nowrap
+	content: attr(data-tooltip) /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+	margin-top: -24px
+	opacity: 0 /* Наш элемент прозрачен... */
+	padding: 3px 7px
+	position: absolute
+	z-index: 3
+	visibility: hidden /* ...и скрыт. */
+	transition: all 0.4s ease-in-out /* Добавить плавности по вкусу */
+
+.tooltip:hover::after
+	opacity: 1 /* Показываем его */
+	visibility: visible
+/*tooltip*/

@@ -552,7 +552,9 @@
 							</ul>
 						</li>
 					</ul>
-
+					<div class="az-center">	
+						a.
+					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
@@ -637,196 +639,196 @@
 						<a href="#" class="az-rows"><i class="fa fa-th-list" aria-hidden="true"></i></a>
 					</div>
 				</div>
-				<div class="az-row style2 clearfix">
+				<div id="az-catalog" class="az-row style2 clearfix">
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov1.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Снегоступы Снаряжение 76х23,5 (100-120 кг)</span>
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>6890 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov2.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov2.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Термобельё Baseg Stretch Low</span>
+								<a href="#">Термобельё Baseg Stretch Low</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>2750 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov3.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov3.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Куртка RedFox Wind Loft муж.</span>
+								<a href="#">Куртка RedFox Wind Loft муж.</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>18590 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov1.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Снегоступы Снаряжение 76х23,5 (100-120 кг)</span>
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>6890 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov2.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov2.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Термобельё Baseg Stretch Low</span>
+								<a href="#">Термобельё Baseg Stretch Low</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>2750 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov3.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov3.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Куртка RedFox Wind Loft муж.</span>
+								<a href="#">Куртка RedFox Wind Loft муж.</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>18590 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov1.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Снегоступы Снаряжение 76х23,5 (100-120 кг)</span>
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>6890 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov2.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov2.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Термобельё Baseg Stretch Low</span>
+								<a href="#">Термобельё Baseg Stretch Low</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>2750 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov3.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov3.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Куртка RedFox Wind Loft муж.</span>
+								<a href="#">Куртка RedFox Wind Loft муж.</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>18590 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov1.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Снегоступы Снаряжение 76х23,5 (100-120 кг)</span>
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>6890 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov2.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov2.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Термобельё Baseg Stretch Low</span>
+								<a href="#">Термобельё Baseg Stretch Low</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>2750 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="az-col">
 						<div class="az-cat-tov-item">
 							<div class="az-cat-tov-img">
-								<img src="img/az-cat-tov3.jpg" alt="Снегоступы">
+								<a href="#"><img src="img/az-cat-tov3.jpg" alt="Снегоступы"></a>
 							</div>
 							<div class="az-cat-tov-title">
-								<span>Куртка RedFox Wind Loft муж.</span>
+								<a href="#">Куртка RedFox Wind Loft муж.</a>
 							</div>
 							<div class="az-cat-tov-price">
 								<span>18590 руб.</span>
 							</div>
 							<div class="az-cat-tov-add">
-								<a href="#">+</a>
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
 							</div>
 						</div>
 					</div>

@@ -643,6 +643,7 @@
 	/*-sort*/
 	.az-sort
 		height: 42px
+		margin-bottom: 15px
 
 	.az-tovar-num
 		font-size: 14px
@@ -668,6 +669,91 @@
 		font-size: 28px
 		line-height: 42px
 	/*-sort*/
+
+	/*-catalog items*/
+	.az-cat-tov-item
+		width: 100%
+		min-height: 200px
+		padding: 5px
+		position: relative
+		&:hover
+			top: 1px
+			left: 1px
+			box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+			
+	.az-cat-tov-img
+		width: 100%
+		height: 130px
+		text-align: center
+		img
+			display: inline-block
+			max-width: 100%
+			width: auto
+			max-height: 100%
+			height: auto
+
+	.az-cat-tov-title
+		padding-top: 15px
+		text-align: center
+		a
+			font-size: 14px
+			line-height: 16px
+
+	.az-cat-tov-price
+		width: 107px
+		height: 23px
+		background: #59be00
+		position: absolute
+		top: 120px
+		left: -6px
+		text-align: center
+		font-size: 0
+		box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: -6px
+			left: 0
+			width: 0
+			height: 0
+			border-top: 3px solid transparent
+			border-left: 3px solid transparent
+			border-right: 3px solid #59be00
+			border-bottom: 3px solid #59be00
+		span
+			line-height: 23px
+			font-size: 15px
+
+	.az-cat-tov-add
+		text-align: center
+		font-size: 0
+		a
+			position: absolute
+			background: #be272e
+			right: 10px
+			top: 121px
+			border-radius: 50%
+			width: 23px
+			height: 23px
+			display: inline-block
+			line-height: 23px
+			color: #fff
+			font-size: 20px
+			text-decoration: none
+			&:hover, &:active, &:focus
+				text-decoration: none
+
+
+	.az-row.style2
+		.az-col
+			margin-bottom: 15px
+	/*-catalog items*/
+
+	/*tooltip*/
+	.tooltip::after
+		font-size: 12px
+	/*tooltip*/
 	/**/
 
 /* Large Devices, Wide Screens */

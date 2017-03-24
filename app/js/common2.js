@@ -93,5 +93,18 @@ $(function() {
       $(this).toggleClass('az-select-focus');
   });
 
+  $(".az-grid").click(function(){
+  	$(".az-rows").removeClass("active");
+  	$(this).addClass("active");
+  	$("#az-catalog").removeClass("list");
+  	return false;
+  });
+
+  $(".az-rows").click(function(){
+  	$(".az-grid").removeClass("active");
+  	$(this).addClass("active");
+  	$("#az-catalog").addClass("list");
+  	return false;
+  });
 
 });
