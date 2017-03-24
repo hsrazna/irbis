@@ -552,9 +552,10 @@
 							</ul>
 						</li>
 					</ul>
-					<div class="az-center">	
-						a.
-					</div>
+					
+				</div>
+				<div class="az-center hidden-xs">	
+					<a href="#" class="az-compare">Товары для сравнения</a>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
@@ -833,9 +834,280 @@
 						</div>
 					</div>
 				</div>
+				<div class="az-center hidden-xs">
+					<a href="#" class="az-more">Еще товары</a>
+				</div>
 			</div>
 			<div class="col-xs-12">
-			
+				<div class="az-paraths">
+					<p>Страховочная система для альпинизма – один из важнейших элементов снаряжения, напрямую влияющий на удобство спуска/подъема и безопасности проведения различных высотных работ. Их также называют обвязками, и они подразделяются на полные и раздельные. Помимо этого деления, обвязки отличаются по способу применения.</p>
+					<p>Страховочные системы для классического альпинизма имеют существенные конструктивные отличия от спелео систем. Связано это с тем, что альпинисты и спортивные туристы, обычно поднимаются наверх, прокладывая маршрут таким образом, чтобы минимизировать вертикальные участки и лезть, преимущественно, цепляясь руками и упираясь ногами. И для них обвязка это именно часть системы страховки на случай срыва, а также дополнительной опоры, для особо сложных участков.</p>
+					<p>Спелеологи же спускаются сверху вниз и, чаще всего, по полностью вертикальным участкам, зачастую даже без какой-либо опоры на стену пещеры. Поэтому, спелео обвязки отличаются смещением основной точки крепления ниже, что упрощает работу с центром тяжести, когда ты висишь на веревке, а другие опоры в дефиците. Спелео беседки блокируются исключительно рапидом или карабином, который, по сути, является ее конструктивной и неотъемлемой частью. Также спелео обвязки адаптированы для удобной работы с кролем, под который обычные обвязки изначально просто не были рассчитаны. Ведь кроль был придуман именно для удобства перемещения в вертикальных частях пещер. Наиболее востребованным примером классической спелео обвязки, является Vento Профи спелео, которую также можно купить в интернет магазине Ирбис. Впрочем найдется обвязка на любой вкус и кошелек – от бюджетного Ринга до топовых моделей Petzl.</p>
+					<p>Верхние, грудные обвязки, призваны сохранить в целостности Ваш позвоночник, в случае срыва и повисания на страховочной веревке. Поэтому, крайне НЕ рекомендуется использовать только поясную беседку, без грудной обвязки, а также правильно настраивать обвязки, исходя их параметров комплекции своего тела. Полная страховочная система в этом плане несколько удобнее и надежнее, так как уже представляет собой единую конструкцию верхней и нижней обвязок.</p>
+					<p>Специалисты нашего магазина помогут осуществить грамотный подбор страховочной системы для скалолазания , после чего Вы сможете купить ее удобным для Вас способом. Мы отправляем заказы по всей территории Российской Федерации.</p>
+				</div>
+				<h2><span>Популярные товары</span></h2>
+				<div class="az-row style3 clearfix">
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov2.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Термобельё Baseg Stretch Low</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>2750 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov3.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Куртка RedFox Wind Loft муж.</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>18590 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col hidden-xs">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col hidden-xs">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov2.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Термобельё Baseg Stretch Low</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>2750 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col hidden-xs">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov3.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Куртка RedFox Wind Loft муж.</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>18590 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col hidden-xs">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2><span>Новинки</span></h2>
+				<div class="az-row style3 clearfix">
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov2.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Термобельё Baseg Stretch Low</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>2750 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov3.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Куртка RedFox Wind Loft муж.</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>18590 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col hidden-xs">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col hidden-xs">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov2.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Термобельё Baseg Stretch Low</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>2750 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col hidden-xs">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov3.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Куртка RedFox Wind Loft муж.</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>18590 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="az-col hidden-xs">
+						<div class="az-cat-tov-item">
+							<div class="az-cat-tov-img">
+								<a href="#"><img src="img/az-cat-tov1.jpg" alt="Снегоступы"></a>
+							</div>
+							<div class="az-cat-tov-title">
+								<a href="#">Снегоступы Снаряжение 76х23,5 (100-120 кг)</a>
+							</div>
+							<div class="az-cat-tov-price style2">
+								<span>6890 руб.</span>
+							</div>
+							<div class="az-cat-tov-add">
+								<a href="#" class="tooltip" data-tooltip="Добавить в корзину">+<span>В корзину</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
