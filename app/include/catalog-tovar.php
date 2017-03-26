@@ -552,7 +552,6 @@
 							</ul>
 						</li>
 					</ul>
-					
 				</div>
 				<div class="az-center hidden-xs">	
 					<a href="#" class="az-compare">Товары для сравнения</a>
