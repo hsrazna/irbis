@@ -6,36 +6,47 @@
 	    	</div>
 	    	<div class="clearfix"></div>
 	    	<div class="row">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-					<div class="ah-cardprod-imgbox">
-						<img src="img/ah-cardprod1.jpg" class="img-responsive" alt="product">
+		    	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+						<div class="ah-cardprod-imgbox">
+							<img src="img/ah-cardprod1.jpg" class="img-responsive" alt="product">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<div class="ah-productdetail-box">
-						<span class="ah-productdetail-title">Характеристики товара:</span>
-						<ul class="ah-productdetail-list">
-							<li class="ah-colorcell">
-								<span class="ah-prodlist-cellleft">Вес, кг</span>
-								<span class="ah-prodlist-cellright">440</span>
-							</li>
-							<li>
-								<span class="ah-prodlist-cellleft">Производитель</span>
-								<span class="ah-prodlist-cellright">Ринг</span>
-							</li>
-							<li class="ah-colorcell">
-								<span class="ah-prodlist-cellleft">Тип пряжки</span>
-								<span class="ah-prodlist-cellright">обычная</span>
-							</li>
-							<li>
-								<span class="ah-prodlist-cellleft">Тип системы</span>
-								<span class="ah-prodlist-cellright">поясная<br>беседка</span>
-							</li>
-							<li class="ah-colorcell">
-								<span class="ah-prodlist-cellleft">Назначение</span>
-								<span class="ah-prodlist-cellright">спелео</span>
-							</li>
-						</ul>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="ah-productdetail-box">
+							<span class="ah-productdetail-title">Характеристики товара:</span>
+							<ul class="ah-productdetail-list">
+								<li class="ah-colorcell">
+									<span class="ah-prodlist-cellleft">Вес, кг</span>
+									<span class="ah-prodlist-cellright">440</span>
+								</li>
+								<li>
+									<span class="ah-prodlist-cellleft">Производитель</span>
+									<span class="ah-prodlist-cellright">Ринг</span>
+								</li>
+								<li class="ah-colorcell">
+									<span class="ah-prodlist-cellleft">Тип пряжки</span>
+									<span class="ah-prodlist-cellright">обычная</span>
+								</li>
+								<li>
+									<span class="ah-prodlist-cellleft">Тип системы</span>
+									<span class="ah-prodlist-cellright">поясная<br>беседка</span>
+								</li>
+								<li class="ah-colorcell">
+									<span class="ah-prodlist-cellleft">Назначение</span>
+									<span class="ah-prodlist-cellright">спелео</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<span class="ah-cardprod-textspan">Описание товара:</span>
+						<p class="ah-cardprod-text">Удобная страховочная система для спелеологии и спасательных работ. — Низкое расположение брюшного зажима. — Ножные петли обшиты PVC-тканью, что придает дополнительную жесткость и защищает от трения. — Точки крепления усилены трубчатой стропой. — Три петли для дополнительного снаряжения. Блокировка только основной веревкой или специальным полукруглым карабином. Вес: 440 гр.</p>
+						<div class="ah-cardprod-linkbox">
+							<a href="#" class="ah-cardlinkbox-link1">Товары для сровнение</a>
+							<a href="#" class="ah-cardlinkbox-link1 ah-cardlink1">Отложеные товары</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -78,19 +89,6 @@
 							</form>
 						</div>
 					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-					<div class="ah-cardprod-textbox">
-						<span class="ah-cardprod-textspan">Описание товара:</span>
-						<p class="ah-cardprod-text">Удобная страховочная система для спелеологии и спасательных работ. — Низкое расположение брюшного зажима. — Ножные петли обшиты PVC-тканью, что придает дополнительную жесткость и защищает от трения. — Точки крепления усилены трубчатой стропой. — Три петли для дополнительного снаряжения. Блокировка только основной веревкой или специальным полукруглым карабином. Вес: 440 гр.</p>
-					</div>
-					<div class="ah-cardprod-linkbox">
-						<a href="#" class="ah-cardlinkbox-link1">Товары для сровнение</a>
-						<a href="#" class="ah-cardlinkbox-link1 ah-cardlink1">Отложеные товары</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="ah-productwrapp1">
 						<span class="ah-productwrapp1-span">Оплата наличными при получении, или:</span>
 						<span class="ah-productwrapp1-span1">КУПИ ДЕШЕВЛЕ на 3%,</span>
