@@ -18860,4 +18860,11 @@ $(function() {
   	return false;
   });
 
+  $(".az-tab-inner").click(function(){
+    $(".az-tab-inner").removeClass("active");
+    $(this).addClass("active");
+    $(".az-tabs-cont .az-tab-cont").slideUp(0);
+    $(".az-tabs-cont .az-tab-cont").eq($(".az-tab-inner").index($(this))).slideDown(0);
+  });
+
 });
