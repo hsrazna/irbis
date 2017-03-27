@@ -5,7 +5,6 @@
 	    		<span class="ah-cardprod-title">Поясная беседка Ринг Descent</span>
 	    	</div>
 	    	<div class="clearfix"></div>
-	    	<div class="row">
 				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 					<div class="ah-cardprod-imgbox">
 						<img src="img/ah-cardprod1.jpg" class="img-responsive" alt="product">
@@ -155,7 +154,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	</div>
 </section>
