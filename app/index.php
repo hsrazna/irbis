@@ -52,19 +52,22 @@
 				<li><a href="#" class="ah-comform-listlink2">НОВАЯ КАРТА</a></li>
 			</ul>
 			<div class="ah-subform-box">
-				<span>Номер карты:</span>
-				<input type="text" placeholder="0000 0000 0000 0000">
-				<div class="ah-subform-box">
+				<span class="ah-subform-box-span">Номер карты:</span>
+				<input type="text" class="ah-subform-input" placeholder="0000 0000 0000 0000">
+				<div class="ah-subform-box1">
 					<div class="ah-subform-block1">
-						<span>Срок действия:</span>
-						<input type="text" placeholder="MM/YY">
+						<span class="ah-subform-box-span">Срок действия:</span>
+						<input type="text" class="ah-subform-input1" placeholder="MM/YY">
 					</div>
 					<div class="ah-subform-block2">
-						<span>CVC/CVV2:</span>
-						<input type="text" placeholder="MM/YY">
+						<span class="ah-subform-box-span">CVC/CVV2:</span>
+						<input type="text" class="ah-subform-input2" placeholder="MM/YY">
 					</div>
+					<span class="ah-subform-box-span1">3 последние цифры на<br>оборотной стороне карты</span>
 				</div>
 			</div>
+			<input type="checkbox">
+			<span>Я согласен с <span>условиями использования</span> сервиса</span>
 			<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
 		</form>
 	</div>

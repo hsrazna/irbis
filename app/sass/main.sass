@@ -527,47 +527,17 @@
 	padding: 20px 0px 10px 0px
 
 /************************* POPUP-Form *****************************************/
-.ah-subform
-	padding: 15px 15px
+.ah-subform-box
+	padding: 15px 15px 30px 15px
 	background: #59be00
-	// input[type="text"]
-	// 	width: 302px
-	// 	height: 40px
-	// 	background-color: #59be00
-	// 	border: 2px solid #fff
-	// 	border-radius: 17px
-	// .ah-subform-box
-	// 	input[type="text"]
-	// 		width: 111px
-	// 		height: 40px
-	// 		background: transparent
-	// 		border: 2px solid #fff
-	// 		border-radius: 17px
-
-
-
-		max-width: 302px
-		height: 43px
-		background-color: #59be00
-		border: 2px solid #fff
-		border-radius: 17px
-
-
-
-
-		width: 100%
-		color: #000
-		font-family: Arial
-		font-size: 18px
-		font-weight: 400
-		line-height: 26px
-		outline: none
-		border: none
-		background: #fff
-		border: 2px solid #a2a2a2
-		border-radius: 20px
-		height: 49px
-		padding: 0px 20px
+	border-radius: 15px
+	box-shadow: 1px 1.7px 6px rgba(0, 0, 0, 0.53)
+.ah-subform-box-span1
+	display: inline-block
+	color: #fff
+	font-family: Arial
+	font-size: 9px
+	font-weight: 400
 .ah-comform-list
 	text-align: center
 	padding: 12px 0px 14px 0px
@@ -610,9 +580,21 @@
 	text-align: center
 .ah-common-form
 	display: block
-	padding: 10px 40px
+	padding: 10px 30px
 	background: #fff
 	box-sizing: border-box
+	.ah-subform-box-span
+		display: block
+		color: #fff
+		font-family: Arial
+		font-size: 15px
+		font-weight: 400
+		margin-bottom: 12px
+	input[type="checkbox"]
+		width: 16px
+		height: 16px
+		border: 1px solid #59be00
+		background: url(../imd/ah-checkbox1.png) center center no-repeat
 	input[type="text"]
 		width: 100%
 		color: #000
@@ -627,8 +609,77 @@
 		border-radius: 20px
 		height: 49px
 		padding: 0px 20px
+	input[type="text"].ah-subform-input
+		display: block
+		max-width: 302px
+		height: 43px
+		background: #59be00
+		border: 2px solid #fff
+		border-radius: 17px
+		font-family: Arial
+		font-size: 16px
+		font-weight: 400
+		line-height: 22px
+		text-align: center
+		color: #fff
+		margin: 0 auto
+		&::-webkit-input-placeholder
+			color: #fff
+		&::-moz-placeholder
+			color: #fff
+		&:-moz-placeholder
+			color: #fff
+		&:-ms-input-placeholder
+			color: #fff
+	input[type="text"].ah-subform-input1
+		display: inline-block
+		max-width: 111px
+		height: 40px
+		background: #59be00
+		border: 2px solid #fff
+		border-radius: 15px
+		font-family: Arial
+		font-size: 16px
+		font-weight: 400
+		line-height: 22px
+		color: #fff
+		text-align: center
+		&::-webkit-input-placeholder
+			color: #fff
+		&::-moz-placeholder
+			color: #fff
+		&:-moz-placeholder
+			color: #fff
+		&:-ms-input-placeholder
+			color: #fff
+	input[type="text"].ah-subform-input2
+		display: inline-block
+		max-width: 111px
+		height: 40px
+		background: #59be00
+		border: 2px solid #fff
+		border-radius: 15px
+		font-family: Arial
+		font-size: 16px
+		font-weight: 400
+		line-height: 22px
+		color: #fff
+		text-align: center
+		&::-webkit-input-placeholder
+			color: #fff
+		&::-moz-placeholder
+			color: #fff
+		&:-moz-placeholder
+			color: #fff
+		&:-ms-input-placeholder
+			color: #fff
+.ah-subform-block1, .ah-subform-block2
+	display: inline-block
+.ah-subform-box1
+	margin-top: 20px
+.ah-subform-block2
+	// margin-left: 27px
 
-/**************************************************************************
 
 
 
@@ -638,6 +689,5 @@
 
 
 
-
-@import "media"  /* Всегда в конце 
+@import "media"  /* Всегда в конце */
 @import "media2"  /* Всегда в конце */
