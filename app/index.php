@@ -44,6 +44,11 @@
 			<div class="ah-upimg">
 				<img src="img/ah-uplogo1.jpg" alt="logo">
 			</div>
+			<select class="selectpicker1">
+			  <option>Mustard</option>
+			  <option>Ketchup</option>
+			  <option>Relish</option>
+			</select>
 			<span class="ah-comform-span">*Ваш номер телефона:</span>
 			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">
 			<span class="ah-comform-span1">Если вы уже платили через PAYMO, вам не нужно будет вводить номер карты повторно<span>*это поле обязательно для заполнения</span></span>
@@ -61,18 +66,19 @@
 					</div>
 					<div class="ah-subform-block2">
 						<span class="ah-subform-box-span">CVC/CVV2:</span>
-						<input type="text" class="ah-subform-input2" placeholder="MM/YY">
+						<input type="password" class="ah-subform-input2" placeholder="* * *">
 					</div>
 					<span class="ah-subform-box-span1">3 последние цифры на<br>оборотной стороне карты</span>
 				</div>
 			</div>
-			<input type="checkbox">
-			<span>Я согласен с <span>условиями использования</span> сервиса</span>
-			<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
+			<input type="checkbox" id="check1"><label for="check1" class="ah-check1"></label>
+			<span class="ah-comform-span2">Я согласен с <span>условиями использования</span> сервиса</span>
+			<input type="submit" value="ОПЛАТИТЬ">
 		</form>
 	</div>
 
 	<script src="js/scripts.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/i18n/defaults-*.min.js"></script>
 
 </body>
 </html>

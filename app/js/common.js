@@ -40,5 +40,13 @@ $(function() {
         mainClass: 'my-mfp-zoom-in'
     });
 
+	//************* MagnificPopup ***********
+
+    $('.selectpicker1').selectpicker({
+	  style: 'btn-info',
+	  size: 4
+	});
+
+
 
 });
