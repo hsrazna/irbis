@@ -45,9 +45,9 @@
 				<img src="img/ah-uplogo1.jpg" alt="logo">
 			</div>
 			<select class="selectpicker1">
-			  <option>Mustard</option>
-			  <option>Ketchup</option>
-			  <option>Relish</option>
+			  <option>Банковской картой</option>
+			  <option>Банковской картой1</option>
+			  <option>Банковской картой2</option>
 			</select>
 			<span class="ah-comform-span">*Ваш номер телефона:</span>
 			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">

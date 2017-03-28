@@ -1005,7 +1005,7 @@ div[class^="col"]
 		a
 			font-size: 13px
 
-.az-tabs-cont
+.az-tab-cont1
 	border-top: 1px solid #f9f9f9
 	padding: 9px 30px
 	font-size: 0
@@ -1042,14 +1042,42 @@ div[class^="col"]
 
 .az-button
 	&.style2
+		text-align: center
+		display: inline-block
 		background: #59be00
 		height: 30px
+		line-height: 30px
 		width: 134px
 		font-size: 12.5px
-		&:hover
+		&:hover, &:active
 			background: #fff
 			border-color: #59be00
 			color: #59be00
+	&.style3
+		text-align: center
+		display: inline-block
+		background: #cbcbcb
+		height: 30px
+		line-height: 30px
+		width: 134px
+		font-size: 12.5px
+		&:hover, &:active
+			background: #59be00
+			border-color: #59be00
+			color: #fff
+	&.style4
+		text-align: center
+		display: inline-block
+		background: #59be00
+		height: 30px
+		line-height: 30px
+		width: 134px
+		font-size: 12.5px
+		&:hover, &:active
+			background: #fff
+			border-color: #59be00
+			color: #59be00
+
 /*basket*/
 
 /*order-table*/
@@ -1163,7 +1191,11 @@ div[class^="col"]
 		background: #59be00
 		color: #fff
 		font-size: 18px
+		text-decoration: none
+		&:hover
+			text-decoration: none
 	.az-minus
+		text-decoration: none
 		position: absolute
 		top: 0
 		right: 0
@@ -1173,4 +1205,135 @@ div[class^="col"]
 		background: #59be00
 		color: #fff
 		font-size: 18px
+		&:hover
+			text-decoration: none
+
+.az-order-summ
+	width: 170px
+	margin: 15px auto
+	font-size: 0
+
+.az-ord-summ-left
+	width: 50%
+	display: inline-block
+	text-align: right
+	font-size: 14px
+	font-weight: bold
+
+.az-ord-summ-right
+	width: 50%
+	display: inline-block
+	text-align: center
+	font-size: 14px
+	padding-right: 20px
+
+.az-clear-basket, .az-clear-basket:focus
+	height: 22px
+	width: 108px
+	line-height: 22px
+	background: #cecece
+	color: #fff
+	font-size: 10px
+	display: inline-block
+	border-radius: 3px
+	text-decoration: none
+	position: relative
+	overflow: hidden
+	&::after
+		content: ''
+		position: absolute
+		width: 100%
+		height: 1px
+		bottom: 0
+		left: 0
+		background: rgba(0, 0, 0, 0.5)
+	&:hover, &:active
+		background: #59be00
+		color: #fff
+		text-decoration: none
+
+.az-input
+	input[type="text"].az-input-style2
+		width: 215px
+
+.az-email-span
+	width: 100%
+	display: inline-block
+	font-size: 9.5px
+	color: #be282f
+
+.az-radio-custom
+	font-size: 0
+	margin-bottom: 10px
+	input[type="radio"]
+		display: none
+	label
+		display: inline-block
+		padding-left: 24px
+		background: url(../img/az-radio.png) no-repeat 5px center
+		font-size: 14px
+		font-weight: normal
+		margin: 0
+		cursor: pointer
+	input[type="radio"]:checked+label
+		background: url(../img/az-radio-checked.png) no-repeat 5px center
+	span
+		display: inline-block
+		width: 100%
+		padding-left: 24px
+		color: #848484
+		font-size: 10px
+		line-height: 10px
+
+.az-select.style2
+	width: 217px
+	font-size: 11px
+	margin-left: 31px
+	margin-top: 10px
+	background: #f7f7f7
+	&::before
+		content: ""
+		height: 25px
+		width: 21px
+		background: url(../img/az-select-arrow.png) no-repeat center
+	select
+		border-radius: 3px
+		height: 25px
+		font-size: 11px
+		padding: 0 5px
+	.az-options div[data-val]
+		height: 25px
+		line-height: 25px
+
+.az-del-buttons
+	font-size: 0
+
+.az-del-left
+	width: 50%
+	float: left
+	text-align: left
+	font-size: 0
+	margin-top: 5px
+	margin-bottom: 15px
+
+.az-del-right
+	width: 50%
+	float: right
+	text-align: right
+	font-size: 0
+	margin-top: 5px
+	margin-bottom: 15px
+
+.az-input.style2
+	margin-bottom: 12px
+
+.az-radio-custom.style2
+	min-height: 45px
+	label
+		background-position-y: 3px !important 
+	span
+		color: #be282f
+
+.az-sell
+	padding: 10px 0 0
 /*order-table*/
