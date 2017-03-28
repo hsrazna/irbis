@@ -11,6 +11,9 @@
 body
 	font-family: Arial
 
+a, a:hover, a:focus, a:active
+	outline: none
+
 h2
 	font-size: 15px
 	text-align: center
@@ -1048,3 +1051,122 @@ div[class^="col"]
 			border-color: #59be00
 			color: #59be00
 /*basket*/
+
+/*order-table*/
+.az-order-title
+	font-size: 19px
+	color: #070707
+	display: inline-block
+	width: 100%
+	text-align: center
+
+.az-order-table
+	border-top: 1px solid #d9d9d9
+
+.az-table-row
+	display: block
+	width: 100%
+	font-size: 0
+	border-bottom: 1px solid #59be00
+
+.az-cell
+	display: inline-block
+	vertical-align: middle
+	// height: 85px
+	border-bottom: 1px solid #d9d9d9
+	&:nth-child(1)
+		width: 9%
+		text-align: center
+	&:nth-child(2)
+		width: 18%
+		text-align: center
+	&:nth-child(3)
+		width: 73%
+		padding-left: 10px
+		span
+			max-width: 87%
+	&:nth-child(4)
+		width: 26%
+		text-align: center
+	&:nth-child(5)
+		width: 40%
+		text-align: center
+	&:nth-child(6)
+		width: 34%
+		text-align: center
+
+.az-th
+	height: 29px
+	line-height: 29px
+	color: #070707
+	font-size: 14px
+	text-align: center
+	font-weight: bold
+	vertical-align: middle
+
+.az-td
+	height: 56px
+	line-height: 56px
+	font-size: 14px
+	*
+		vertical-align: middle
+		line-height: 20px
+		display: inline-block
+
+.az-table-img-box
+	position: relative
+	border-radius: 50%
+	overflow: hidden
+	width: 50px
+	margin: 0 auto
+	height: 50px
+	img
+		position: absolute
+		max-width: 120%
+		height: auto
+		left: 50%
+		top: 50%
+		transform: translate(-50%, -50%)
+
+.az-del
+	display: inline-block
+	width: 19px
+	height: 18px
+	background: url(../img/az-del.png) no-repeat center
+
+.az-plus-minus
+	position: relative
+	padding: 0 18px
+	display: inline-block
+	font-size: 0
+	input
+		height: 21px
+		// line-height: 21px
+		width: 30px
+		font-size: 14px
+		color: #070707
+		vertical-align: top
+		text-align: center
+		border-top: 1px solid #8e8e8e
+		border-bottom: 1px solid #8e8e8e
+	.az-plus
+		position: absolute
+		top: 0
+		left: 0
+		width: 18px
+		height: 21px
+		line-height: 19px
+		background: #59be00
+		color: #fff
+		font-size: 18px
+	.az-minus
+		position: absolute
+		top: 0
+		right: 0
+		width: 18px
+		height: 21px
+		line-height: 18px
+		background: #59be00
+		color: #fff
+		font-size: 18px
+/*order-table*/

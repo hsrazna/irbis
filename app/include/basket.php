@@ -56,3 +56,90 @@
 		</div>
 	</div>
 </section>
+<section class="az-order">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<span class="az-order-title">Ваш заказ:</span>
+				<div class="az-order-table">
+					<div class="az-table-row">
+						<div class="az-cell">
+							<div class="az-th">№</div>
+							<div class="az-td">1</div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Фото</div>
+							<div class="az-td">
+								<div class="az-table-img-box">
+									<img src="img/az-cat-tov1.jpg" alt="вака">
+								</div>
+							</div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Наименование товара</div>
+							<div class="az-td"><span>Двухсекционны  велорюкзак Ekud “Чип и Дейл”</span> <a href="#" class="az-del"></a></div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Цена, руб.</div>
+							<div class="az-td">2830 руб.</div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Кол-во, шт.</div>
+							<div class="az-td">
+								<div class="az-plus-minus">
+									<form>
+										<a href="#" class="az-plus">+</a>
+										<input type="text" value="1">
+										<a href="#" class="az-minus">-</a>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Сумма, руб.</div>
+							<div class="az-td">2830 руб.</div>
+						</div>
+					</div>
+					<div class="az-table-row">
+						<div class="az-cell">
+							<div class="az-th">№</div>
+							<div class="az-td">1</div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Фото</div>
+							<div class="az-td">
+								<div class="az-table-img-box">
+									<img src="img/az-cat-tov1.jpg" alt="вака">
+								</div>
+							</div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Наименование товара</div>
+							<div class="az-td"><span>Двухсекционны  велорюкзак Ekud “Чип и Дейл”</span> <a href="#" class="az-del"></a></div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Цена, руб.</div>
+							<div class="az-td">2830 руб.</div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Кол-во, шт.</div>
+							<div class="az-td">
+								<div class="az-plus-minus">
+									<form>
+										<a href="#" class="az-plus">+</a>
+										<input type="text" value="1">
+										<a href="#" class="az-minus">-</a>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="az-cell">
+							<div class="az-th">Сумма, руб.</div>
+							<div class="az-td">2830 руб.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
