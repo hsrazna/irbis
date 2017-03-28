@@ -44,11 +44,13 @@
 			<div class="ah-upimg">
 				<img src="img/ah-uplogo1.jpg" alt="logo">
 			</div>
+			<span class="ah-comform-span">Оплатить с помощью:</span>
 			<select class="selectpicker1">
 			  <option>Банковской картой</option>
 			  <option>Банковской картой1</option>
 			  <option>Банковской картой2</option>
 			</select>
+			<span class="ah-comform-span0">Сумма с учетом комиссии:	<span>3195.00Р</span></span>
 			<span class="ah-comform-span">*Ваш номер телефона:</span>
 			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">
 			<span class="ah-comform-span1">Если вы уже платили через PAYMO, вам не нужно будет вводить номер карты повторно<span>*это поле обязательно для заполнения</span></span>
@@ -72,9 +74,66 @@
 				</div>
 			</div>
 			<input type="checkbox" id="check1"><label for="check1" class="ah-check1"></label>
-			<span class="ah-comform-span2">Я согласен с <span>условиями использования</span> сервиса</span>
+			<span class="ah-comform-span2">Я согласен с <a href="#">условиями использования</a> сервиса</span>
 			<input type="submit" value="ОПЛАТИТЬ">
 		</form>
+		
+		<!-- <div id="thanks1" class="ah-thanks"></div> -->
+		
+		<div id="thanks1" class="zoom-anim-dialog ah-thanks">
+			<div class="ah-thanks-wrapp">
+				<span class="ah-thanks-title">СПАСИБО, ДИАНА ПУЛИЛИНА, ВАШ ЗАКАЗ ПРИНЯТ!</span>
+				<span class="ah-thanks-number">№ заказа : <span>858585</span></span>
+				<span class="ah-thanks-number">Итоговая сумма заказа: 5000 руб.</span>
+			</div>
+			<div class="ah-thanks-wrappall">
+				<div class="ah-thanks-wrapp1">
+					<div class="ah-thanks-imgbox">
+						<img src="img/ah-thanks1.png" alt="thanks1">
+					</div>
+					<div class="ah-thanks-content">
+						<span class="ah-thanks-text">В течение <span>1 рабочого дня</span> с Вами свяжется наш менеджер, чтобы уточнить все детали заказа</span>
+					</div>
+				</div>
+				<div class="ah-thanks-wrapp1">
+					<div class="ah-thanks-imgbox">
+						<img src="img/ah-thanks2.png" alt="thanks2">
+					</div>
+					<div class="ah-thanks-content">
+						<span class="ah-thanks-text">Если сегодня <span>суббота или воскресенье,</span> или праздничный день, и мы не работаем, не беспокойтесь!</span>
+					</div>
+				</div>
+				<div class="ah-thanks-wrapp1">
+					<div class="ah-thanks-imgbox">
+						<img src="img/ah-thanks3.png" alt="thanks3">
+					</div>
+					<div class="ah-thanks-content">
+						<span class="ah-thanks-text"><span>ВАШ ЗАКАЗ УЖЕ У НАС,</span> мы свяжемся с Вами в первый рабочий день в самое ближайшее время</span>
+					</div>
+				</div>
+			</div>
+			<div class="ah-thanks-wrappall">
+				<div class="ah-thanks-wrapp1">
+					<div class="ah-thanks-imgbox">
+						<img src="img/ah-thanks4.png" alt="thanks4">
+					</div>
+					<div class="ah-thanks-content">
+						<span class="ah-thanks-text">После отправлния заказ <span>трек-номер</span> будет выслан на Вашу электронную почту</span>
+					</div>
+				</div>
+				<div class="ah-thanks-wrapp1">
+					<div class="ah-thanks-imgbox">
+						<img src="img/ah-thanks5.png" alt="thanks5">
+					</div>
+					<div class="ah-thanks-content">
+						<span class="ah-thanks-text">Вы получите заказ и в месте с ним <span class="ah-thanksspan">скидку 5%</span> на следующий заказ!</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
 	</div>
 
 	<script src="js/scripts.js"></script>

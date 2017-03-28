@@ -52,7 +52,8 @@
 								</div>
 							</div>
 							<div class="az-call-back-inner">
-								<a href="#small-dialog" class="popup-with-zoom-anim">Заказать звонок</a>
+								<!-- <a href="#small-dialog" class="popup-with-zoom-anim">Заказать звонок</a> -->
+								<a href="#thanks1" class="popup-with-zoom-anim">Заказать звонок</a>
 							</div>
 						</div>
 					</div>
