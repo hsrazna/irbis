@@ -6,7 +6,7 @@
 				<div class="az-basket-subtitle"><span>3 простых шага, не более 2 минут вашего времени</span></div>
 				<div class="az-tabs">
 					<div class="az-tab az-tab1">
-						<div class="az-tab-inner">
+						<div class="az-tab-inner active">
 							<div class="az-tab-img">
 								<img src="img/az-step1.png" alt="телефон и имя">
 							</div>
@@ -22,7 +22,7 @@
 						</div>
 					</div>
 					<div class="az-tab az-tab3">
-						<div class="az-tab-inner active">
+						<div class="az-tab-inner">
 							<div class="az-tab-img">
 								<img src="img/az-step3.png" alt="телефон и имя">
 							</div>
@@ -31,7 +31,7 @@
 					</div>
 				</div>
 				<div class="az-tabs-cont">
-					<div class="az-tab-cont az-tab-cont1" style="display: none;">
+					<div class="az-tab-cont az-tab-cont1">
 						<div class="az-name-phone">
 							<form action="/">
 								<div class="row">
@@ -96,7 +96,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="az-tab-cont">
+					<div class="az-tab-cont" style="display: none;">
 						<div class="az-sell">
 							<div class="az-radious">
 								<div class="az-radio-custom style2">
