@@ -139,6 +139,12 @@
 						</div>
 					</div>
 				</div>
+				<div class="az-order-summ">
+					<div class="az-ord-summ-left">Доставка :</div>
+					<div class="az-ord-summ-right">450</div>
+					<div class="az-ord-summ-left">Итого:</div>
+					<div class="az-ord-summ-right">3195</div>
+				</div>
 			</div>
 		</div>
 	</div>
