@@ -40,6 +40,8 @@
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
+
+
 		<form id="small-dialog" class="zoom-anim-dialog ah-common-form">
 			<div class="ah-upimg">
 				<img src="img/ah-uplogo1.jpg" alt="logo">
@@ -78,11 +80,9 @@
 			<input type="submit" value="ОПЛАТИТЬ">
 		</form>
 		
-		<!-- <div id="thanks1" class="ah-thanks"></div> -->
-		
 		<div id="thanks1" class="zoom-anim-dialog ah-thanks">
 			<div class="ah-thanks-wrapp">
-				<span class="ah-thanks-title">СПАСИБО, ДИАНА ПУЛИЛИНА, ВАШ ЗАКАЗ ПРИНЯТ!</span>
+				<span class="ah-thanks-title">СПАСИБО,<br class="hidden-lg hidden-md hidden-sm">ДИАНА ПУЛИЛИНА,<br class="hidden-lg hidden-md hidden-sm">ВАШ ЗАКАЗ ПРИНЯТ!</span>
 				<span class="ah-thanks-number">№ заказа : <span>858585</span></span>
 				<span class="ah-thanks-number">Итоговая сумма заказа: 5000 руб.</span>
 			</div>
@@ -132,12 +132,17 @@
 			</div>
 		</div>
 
+		<div id="zakaz1" class="zoom-anim-dialog ah-zakaz">
+			<div class="ah-zakaz-wrapp">
+				<span class="ah-zakaz-span1">До <span>бесплатной</span> доставки<br>Вам осталось <span>9200</span> руб.</span>
+				<a href="#" class="ah-zakaz-span2">ОФОРМИТЬ ЗАКАЗ</a>
+			</div>
+		</div>
 
 
 	</div>
 
 	<script src="js/scripts.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/i18n/defaults-*.min.js"></script>
 
 </body>
 </html>

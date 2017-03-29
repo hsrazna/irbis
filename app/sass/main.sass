@@ -7,20 +7,65 @@
 
 
 
+.ah-zakaz
+	position: relative
+	width: 100%
+	height: 55px
+	background: #fff
+	border-radius: 9px
+	box-shadow: 0 0 10px rgba(35, 31, 32, 0.26)
+	margin: 40px auto
+	.mfp-close
+		top: -30px
+		width: 18px
+		height: 18px
+		background: url(../img/ah-close.png) center center no-repeat
+		opacity: 1
 
-
-
+.ah-zakaz-span1
+	float: left
+	display: inline-block
+	font-family: Arial
+	font-size: 13px
+	font-weight: 400
+	color: #000
+	margin: 7px 0px
+	background: url(../img/ah-zakaz_320.png) calc(0% + 10px) center no-repeat
+	padding-left: 50px
+	span
+		color: #59be00
+.ah-zakaz-span2
+	float: right
+	display: inline-block
+	color: #fff
+	font-family: Arial
+	font-size: 10px
+	font-weight: 400
+	background: #b7272c
+	border-radius: 50% 9px 9px 50%
+	padding: 21px 5px 20px 6px
+	text-transform: uppercase
+	&:hover, &:focus, &:active
+		color: #fff
+		text-decoration: none
+.ah-thanks
+	button.mfp-close, button.mfp-arrow
+		top: 35px
 .ah-fotmobile
 	max-width: 300px
 	margin: 0 auto
 .ah-thanks-title
-	display: block
+	display: inline-block
+	height: 50px
 	color: #329300
 	font-family: Arial
 	font-size: 20px
 	font-weight: 700
 	text-align: center
-	margin-bottom: 10px
+	line-height: 21px
+	margin-bottom: 35px
+	padding-left: 65px
+	background: url(../img/ah-thanks.png) left center no-repeat
 .ah-thanks-number
 	display: block
 	color: #000
@@ -32,14 +77,14 @@
 		font-weight: 700
 .ah-thanks
 	background: #fff
-	padding: 20px 30px 45px 30px
+	padding: 20px 10px 45px 10px
 	max-width: 742px
 	border-radius: 4px
 	box-shadow: 0 0 13px rgba(0, 0, 0, 0.63)
 	margin: 40px auto
 .ah-thanks-wrappall
-	width: 49%
-	display: inline-block
+	width: 100%
+	display: block
 	vertical-align: top
 .ah-thanks-wrapp
 	padding-bottom: 12px
@@ -52,7 +97,7 @@
 .ah-thanks-imgbox
 	display: table-cell
 	vertical-align: top
-	padding-left: 40px
+	padding-left: 0px
 .ah-thanks-content
 	display: table-cell
 	vertical-align: top
@@ -80,18 +125,18 @@
 		display: inline-block
 		font-size: 20px
 .bootstrap-select
-	width: 358px !important
+	width: 100% !important
 .bootstrap-select
 	.dropdown-toggle:focus
 		outline: none !important
 		outline-offset: none !important
 .btn
-	width: 358px !important
+	width: 100% !important
 	height: 49px !important
 	background-color: #fff !important
 	border: 2px solid #a2a2a2 !important
 	border-radius: 20px !important
-	line-height: 37px !important
+	line-height: 33px !important
 	color: #000 !important
 	font-family: Arial !important
 	font-size: 18px !important
@@ -621,7 +666,7 @@
 .ah-comform-span2
 	display: inline-block
 	font-family: Arial
-	font-size: 15px
+	font-size: 11px
 	font-weight: 400
 	color: #000
 	a
@@ -647,7 +692,7 @@
 	display: inline-block
 	color: #fff
 	font-family: Arial
-	font-size: 9px
+	font-size: 7px
 	font-weight: 400
 .ah-comform-list
 	text-align: center
@@ -658,7 +703,7 @@
 			display: inline-block
 			color: #000
 			font-family: Arial
-			font-size: 13px
+			font-size: 11px
 			font-weight: 400
 			text-transform: uppercase
 			padding-left: 40px
@@ -692,14 +737,14 @@
 	margin-bottom: 20px
 .ah-common-form
 	display: block
-	padding: 10px 30px 20px 30px
+	padding: 10px 10px 20px 10px
 	background: #fff
 	box-sizing: border-box
 	.ah-subform-box-span
 		display: block
 		color: #fff
 		font-family: Arial
-		font-size: 15px
+		font-size: 10px
 		font-weight: 400
 		margin-bottom: 12px
 	input[type="submit"]
@@ -753,11 +798,11 @@
 		border: 2px solid #a2a2a2
 		border-radius: 20px
 		height: 49px
-		padding: 0px 20px
+		padding: 0px 5px
 	input[type="text"].ah-subform-input
 		display: block
-		max-width: 302px
-		height: 43px
+		max-width: 100%
+		height: 30px
 		background: #59be00
 		border: 2px solid #fff
 		border-radius: 17px
@@ -779,8 +824,8 @@
 			color: #fff
 	input[type="text"].ah-subform-input1
 		display: inline-block
-		max-width: 111px
-		height: 40px
+		max-width: 80px
+		height: 30px
 		background: #59be00
 		border: 2px solid #fff
 		border-radius: 15px
@@ -801,8 +846,8 @@
 			color: #fff
 	input[type="password"].ah-subform-input2
 		display: inline-block
-		max-width: 111px
-		height: 40px
+		max-width: 80px
+		height: 30px
 		background: #59be00
 		border: 2px solid #fff
 		border-radius: 15px

@@ -21,6 +21,7 @@ gulp.task('scripts', function() {
 		'app/libs/bootstrap/bootstrap.min.js',
 		'app/libs/bootstrap-select-1.12.2/dist/js/bootstrap-select.min.js',
 		'app/libs/bootstrap-select-1.12.2/dist/js/i18n/defaults-ru_RU.min.js',
+		'app/libs/mask/jquery.mask.js',
 		'app/libs/owl.carousel/owl.carousel.min.js',
 		'app/libs/jquery-ui/jquery-ui.js',
 		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
