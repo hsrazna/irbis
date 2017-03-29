@@ -40,8 +40,6 @@
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
-
-
 		<form id="small-dialog" class="zoom-anim-dialog ah-common-form">
 			<div class="ah-upimg">
 				<img src="img/ah-uplogo1.jpg" alt="logo">
@@ -138,8 +136,6 @@
 				<a href="#" class="ah-zakaz-span2">ОФОРМИТЬ ЗАКАЗ</a>
 			</div>
 		</div>
-
-
 	</div>
 
 	<script src="js/scripts.js"></script>
